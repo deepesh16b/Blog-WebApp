@@ -1,0 +1,80 @@
+/* body{
+    min-height: 700px;
+} */
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 9px;
+    background-color: #e5e4e6;
+    padding-bottom: 5px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #7126bafc !important;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #7126bafc;
+}
+
+.footer p {
+	/* margin-top: 25px; */
+    position: relative;
+    top: 22px;
+	font-size: 14px;
+  color: #fff;
+}
+
+#brand-name{
+    color: #7126bafc;
+    position: relative;
+    bottom: 8px;
+}
+
+.btn{
+    background-color: #7126bafc;
+    color: #fff;
+    border-color: rgb(255, 255, 255);
+}
+.btn:hover{
+    background-color: #7126bafc;
+    color: rgb(255, 255, 255);
+    opacity: 0.9;
+}
+
+.eachPost{
+    border-radius: 0.1px;
+    border: rgb(0, 0, 0);
+    border-style: solid;
+}
+
+.btn-compose{
+    border-radius: 3px;
+    font-size: 1.5rem;
+    border: none;
+    margin: 25px;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #454545;
+}
+/* color: #7126bafc ; 
+background-color: #1abc9c;*/

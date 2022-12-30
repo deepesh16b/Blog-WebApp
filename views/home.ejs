@@ -1,0 +1,25 @@
+<%- include("partials/header") -%>
+
+    <%  if(allPosts.length === 0){  %>
+      <div class="home-empty-view" style="text-align: center; margin-top:100px">
+        <h1 style="color: #7126bafc">Publish your passions, your way</h1>
+        <h4 style="padding-top: 10px">Create a unique and beautiful blog easily.</h4>
+        <a href="/compose" style="text-decoration: none"><button class="btn btn-compose">Create your Blog</button></a>
+      </div>
+    <%  } %>
+
+    <%  allPosts.forEach(function(post){  %>
+      
+        <h2> <%=  post.title  %> </h2>
+        <p> <%=  post.content.substring(0, 130)   %> ... </p> 
+        <a href="/posts/<%=  post.title  %>"><button class="btn  btn-sm">Read more</button></a>
+        <br>
+    <%  }) %>
+
+    <%  if(allPosts.length > 4){  %>
+      <style>.footer {position: relative;}</style>
+    <%  }else{  %>
+      <style>.footer {position: absolute;}</style>
+    <%  }  %>
+    
+<%- include("partials/footer") -%>
