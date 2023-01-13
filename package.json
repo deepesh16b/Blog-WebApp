@@ -11,7 +11,16 @@
     "body-parser": "^1.20.1",
     "ejs": "^3.1.8",
     "express": "^4.18.2",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "mongoose": "^6.8.3"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepesh16b/blog-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/deepesh16b/blog-website/issues"
+  },
+  "homepage": "https://github.com/deepesh16b/blog-website#readme",
   "description": ""
 }
